@@ -1,0 +1,22 @@
+body {
+    background-color: #202020;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/** Avatar Image **/
+
+#ava {
+    top: 70px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+
+/** Head Section **/
+
+.head-title {
+    font-size: 16px;
+    font: inherit;
+    text-align: center;
+}
