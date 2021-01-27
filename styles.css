@@ -1,6 +1,7 @@
 body {
     background-color: #202020;
     font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
 }
 
 
@@ -10,6 +11,7 @@ body {
     top: 70px;
     padding: 5px;
     border-radius: 50%;
+    align-self: center;
 }
 
 
