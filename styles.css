@@ -96,17 +96,27 @@ body {
 
 .main-panel {
     margin: auto;
+    width: 80%;
+    text-align: left;
+    border-radius: 1rem;
+    padding: 5px 20px;
+    background-color: #161616;
+}
+
+.main-panel-top {
+    margin: auto;
     margin-top: 5rem;
     width: 80%;
     text-align: left;
     border-radius: 1rem;
-    padding: 10px 25px;
+    padding: 5px 20px;
     background-color: #161616;
 }
 
 .main-header {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.4rem;
+    margin-bottom: auto;
     text-align: inherit;
     color: #D0E4FF;
 }
@@ -120,4 +130,9 @@ body {
 
 mark {
     color: #D0E4FF;
+}
+
+hr {
+    display: block;
+    border-width: 1px;
 }
