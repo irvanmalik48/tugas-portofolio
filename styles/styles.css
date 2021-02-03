@@ -87,11 +87,30 @@ table {
     background-color: #202020;
     border-radius: 1rem;
     text-align: center;
-    transition: border-color 0.25s;
+}
+
+.card-btn {
+    width: calc(100% - 10px);
+    height: auto;
+    padding: 0.1rem 0.4rem;
+    border: 2.4px solid transparent;
+    background-color: #202020;
+    border-radius: 1rem;
+    text-align: center;
+    transition: border-color 0.25s, background-color 0.25s, color 0.25s;
 }
 
 .sidecard {
     padding: 0.4rem;
+}
+
+.card-btn:hover {
+    border-color: #D0E4FF;
+}
+
+.card-btn:active {
+    background-color: #D0E4FF;
+    color: #161616;
 }
 
 .card-inside {
@@ -108,10 +127,6 @@ table {
     border-radius: 100%;
     background-color: transparent;
     padding: 0;
-}
-
-.card:hover {
-    border-color: #D0E4FF;
 }
 
 .text {
