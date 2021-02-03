@@ -14,6 +14,8 @@ table {
 }
 
 svg {
+    width: 60%;
+    height: 60%;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
@@ -103,6 +105,12 @@ td {
         width: 50%;
         border-radius: 50%;
         align-self: center;
+    }
+    svg {
+        width: 100%;
+        height: 100%;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
     }
 }
 
