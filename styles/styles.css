@@ -69,7 +69,7 @@ table {
 }
 
 .card {
-    width: 100%;
+    width: calc(100% - 10px);
     height: auto;
     padding: 0.1rem 0.4rem;
     border: 2.4px solid transparent;
