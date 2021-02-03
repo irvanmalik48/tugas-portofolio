@@ -55,6 +55,7 @@ table {
     .left,
     .main {
         width: 100%;
+        padding: 10px;
     }
     .spacing {
         width: 100%;
