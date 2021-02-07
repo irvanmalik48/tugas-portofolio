@@ -38,7 +38,7 @@
                         </samp>
                     </div>
                 </a>
-                <a href="t2c.html">
+                <a href="t2b.html">
                     <div class="card-btn sidecard text">
                         <samp>
                             Daftar Film
@@ -48,7 +48,177 @@
             </div>
         </div>
         <div class="main">
-
+            <p class="text head align-center">
+                <samp>
+                    Form Pendaftaran
+                </samp>
+            </p>
+            <div class="card">
+                <form autocomplete="off" action="submit.html">
+                    <table>
+                        <tr>
+                            <td rowspan="1" colspan="1" class="card-inside">
+                                <label for="name">
+                                    <p class="text align-left">
+                                        <samp>
+                                            Nama Lengkap
+                                        </samp>
+                                    </p>
+                                </label>
+                            </td>
+                            <th>
+                                <p class="text align-center">:</p>
+                            </th>
+                            <td rowspan="1" colspan="2" class="card-inside-btn nopaddings">
+                                <div class="card-inside transparency flexer-forms nopaddings">
+                                    <input type="text" id="name" name="name" placeholder="Masukkan nama lengkap anda" required>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td rowspan="1" colspan="1" class="card-inside">
+                                <label for="uname">
+                                    <p class="text align-left">
+                                        <samp>
+                                            Username
+                                        </samp>
+                                    </p>
+                                </label>
+                            </td>
+                            <th>
+                                <p class="text align-center">:</p>
+                            </th>
+                            <td rowspan="1" colspan="2" class="card-inside-btn nopaddings">
+                                <div class="card-inside transparency flexer-forms nopaddings">
+                                    <input type="text" id="uname" name="uname" placeholder="Masukkan username yang anda inginkan" required>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td rowspan="1" colspan="1" class="card-inside">
+                                <label for="mail">
+                                    <p class="text align-left">
+                                        <samp>
+                                            Email
+                                        </samp>
+                                    </p>
+                                </label>
+                            </td>
+                            <th>
+                                <p class="text align-center">:</p>
+                            </th>
+                            <td rowspan="1" colspan="2" class="card-inside-btn nopaddings">
+                                <div class="card-inside transparency flexer-forms nopaddings">
+                                    <input type="email" id="mail" name="mail" placeholder="Masukkan email aktif anda" required>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td rowspan="1" colspan="1" class="card-inside">
+                                <label for="pass">
+                                    <p class="text align-left">
+                                        <samp>
+                                            Password
+                                        </samp>
+                                    </p>
+                                </label>
+                            </td>
+                            <th>
+                                <p class="text align-center">:</p>
+                            </th>
+                            <td rowspan="1" colspan="2" class="card-inside-btn nopaddings">
+                                <div class="card-inside transparency flexer-forms nopaddings">
+                                    <input type="password" id="pass" name="pass" placeholder="Masukkan password yang anda inginkan" required>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td rowspan="1" colspan="1" class="card-inside">
+                                <label for="passconf">
+                                    <p class="text align-left">
+                                        <samp>
+                                            Konfirmasi Password
+                                        </samp>
+                                    </p>
+                                </label>
+                            </td>
+                            <th>
+                                <p class="text align-center">:</p>
+                            </th>
+                            <td rowspan="1" colspan="2" class="card-inside-btn nopaddings">
+                                <div class="card-inside transparency flexer-forms nopaddings">
+                                    <input type="password" id="passconf" name="passconf" placeholder="Ulangi password yang anda masukkan" required>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td rowspan="1" colspan="1" class="card-inside">
+                                <label for="tgl">
+                                    <p class="text align-left">
+                                        <samp>
+                                            Tanggal Lahir
+                                        </samp>
+                                    </p>
+                                </label>
+                            </td>
+                            <th>
+                                <p class="text align-center">:</p>
+                            </th>
+                            <td rowspan="1" colspan="2" class="card-inside-btn nopaddings">
+                                <div class="card-inside transparency flexer-forms nopaddings">
+                                    <input type="date" id="tgl" name="tgl" required>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td rowspan="1" colspan="1" class="card-inside">
+                                <p class="text align-left">
+                                    <samp>
+                                        Jenis Kelamin
+                                    </samp>
+                                </p>
+                            </td>
+                            <th>
+                                <p class="text align-center">:</p>
+                            </th>
+                            <td rowspan="1" colspan="2" class="card-inside-btn nopaddings">
+                                <div class="card-inside transparency flexer-forms">
+                                    <select id="gender" name="gender" required>
+                                        <option value="pilih"></option>
+                                        <option value="l">Laki-laki</option>
+                                        <option value="p">Perempuan</option>
+                                        <option value="na">Lainnya</option>
+                                    </select>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td rowspan="1" colspan="1" class="card-inside">
+                                <label for="nope">
+                                    <p class="text align-left">
+                                        <samp>
+                                            Nomor HP
+                                        </samp>
+                                    </p>
+                                </label>
+                            </td>
+                            <th>
+                                <p class="text align-center">:</p>
+                            </th>
+                            <td rowspan="1" colspan="2" class="card-inside-btn nopaddings">
+                                <div class="card-inside transparency flexer-forms nopaddings">
+                                    <input type="tel" id="nope" name="nope" placeholder="+62-xxx-xxxx-xxxx" pattern="+[0-9]{2}-[0-9]{3}-[0-9]{4}-[0-9]{4}" required>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td rowspan="1" colspan="4">
+                                <input type="submit" class="text align-center monospaced" value="Submit Registration Form">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
         </div>
         <div class="spacing">
             <br>
