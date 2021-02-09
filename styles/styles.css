@@ -1,3 +1,5 @@
+/* PAGE AND CONTAINERS */
+
 html,
 body {
     background-color: #161616;
@@ -23,6 +25,7 @@ th,
 td {
     width: auto;
     height: max-content;
+    word-wrap: break-word;
 }
 
 a,
@@ -122,6 +125,9 @@ a:active {
     }
 }
 
+
+/* CARDS */
+
 .flexer {
     display: flex;
     justify-content: center;
@@ -150,35 +156,6 @@ a:active {
     border-radius: 1rem;
     text-align: center;
     transition: border-color 0.25s, background-color 0.25s, color 0.25s;
-}
-
-.align-justify {
-    text-align: justify;
-}
-
-.align-center {
-    text-align: center;
-}
-
-.align-left {
-    text-align: left;
-}
-
-.top-div {
-    margin-top: 1rem;
-}
-
-.sidecard {
-    padding: 0.4rem;
-}
-
-.card-btn:hover {
-    border-color: #D0E4FF;
-}
-
-.card-btn:active {
-    background-color: #D0E4FF;
-    color: #161616;
 }
 
 .card-inside {
@@ -219,6 +196,38 @@ a:active {
     padding: 0;
 }
 
+.sidecard {
+    padding: 0.4rem;
+}
+
+.card-btn:hover {
+    border-color: #D0E4FF;
+}
+
+.card-btn:active {
+    background-color: #D0E4FF;
+    color: #161616;
+}
+
+
+/* TEXT AND ELEMENT FORMATTING */
+
+.align-justify {
+    text-align: justify;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.top-div {
+    margin-top: 1rem;
+}
+
 .text {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.75rem;
@@ -245,6 +254,20 @@ a:active {
 .flexer-forms {
     display: flex;
     flex-wrap: wrap;
+}
+
+.monospaced {
+    font-family: monospace;
+}
+
+.margin-updown {
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+}
+
+.padding-reduce {
+    padding-top: 0.05rem;
+    padding-bottom: 0.05rem;
 }
 
 
@@ -349,10 +372,6 @@ input[type=submit]:active {
     border-color: #D0E4FF;
     background-color: #202020;
     outline: none;
-}
-
-.monospaced {
-    font-family: monospace;
 }
 
 select {
