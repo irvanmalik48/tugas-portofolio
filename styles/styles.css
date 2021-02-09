@@ -49,6 +49,11 @@ a:active {
     width: 15%;
 }
 
+.spacing-portal {
+    float: left;
+    width: 35%;
+}
+
 .vertspace {
     float: left;
     width: 100%;
@@ -74,6 +79,18 @@ a:active {
     padding: 10px;
 }
 
+.main-portal {
+    float: left;
+    width: 30%;
+    padding: 10px;
+}
+
+.main-submit {
+    float: left;
+    width: 70%;
+    padding: 10px;
+}
+
 #ava {
     display: block;
     margin-top: 1rem;
@@ -87,7 +104,8 @@ a:active {
 
 @media screen and (max-width: 800px) {
     .left,
-    .main {
+    .main,
+    .main-portal {
         width: 100%;
         padding: 10px;
     }
