@@ -5,6 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     background-image: url("img/bgpattern.png");
+    height: 25%;
     background-size: 25%;
     background-repeat: repeat;
 }
