@@ -4,7 +4,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    background-color: #252525;
+    background-color: #212121;
 }
 
 p {
@@ -12,6 +12,13 @@ p {
     font-size: 1rem;
     text-align: center;
     color: white;
+}
+
+table,
+tr,
+td {
+    margin: auto;
+    border-collapse: collapse;
 }
 
 .container {
@@ -93,19 +100,23 @@ p {
 .nav-bar {
     background-color: #181818;
     position: sticky;
+    top: 0;
     height: 10%;
-    display: flex;
-    justify-content: center;
-}
-
-.title-bar {
-    background-color: #151515;
     display: flex;
     justify-content: center;
 }
 
 
 /* [Article] */
+
+.article {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    padding: 0 1rem;
+    word-wrap: break-word;
+}
 
 
 /* [Text Formattings] */
@@ -119,9 +130,14 @@ p {
 }
 
 .context {
-    font-size: large;
+    font-size: 1.5rem;
 }
 
 .bold {
     font-weight: bold;
+}
+
+.date {
+    color: #ffffff66;
+    font-size: medium;
 }
