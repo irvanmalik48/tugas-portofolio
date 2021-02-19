@@ -5,6 +5,8 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #212121;
+    background-image: url('../img/bg.png');
+    background-size: 30%;
 }
 
 p {
