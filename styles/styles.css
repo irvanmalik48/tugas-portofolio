@@ -1,145 +1,153 @@
-/* [Main Section] */
-
 body {
+    background-color: #121212;
+    padding-left: 20%;
+    padding-right: 20%;
     margin: 0;
-    display: flex;
-    flex-direction: column;
-    background-color: #212121;
-    background-image: url('../img/bg.png');
-    background-size: 30%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
-    font-family: Roboto;
-    font-size: 1rem;
-    text-align: center;
-    color: white;
-}
-
-table,
-tr,
-td {
+    padding: 0.75rem 1rem;
     margin: auto;
-    border-collapse: collapse;
+    font-size: large;
 }
 
-.container {
+h2 {
+    text-align: center;
+}
+
+.img {
     width: 100%;
     height: 100%;
 }
 
-.spacing {
-    float: left;
-    width: 25%;
-    height: auto;
-}
-
-.main {
-    background-color: #151515;
-    float: left;
-    width: 50%;
-    height: auto;
-    margin: auto;
-}
-
-
-/* [Navigation Logo] */
-
-.nav-logo {
-    width: 27vh;
-    height: 7.5vh;
-}
-
-
-/* [Image] */
-
-.snowden {
+.container {
+    display: flex;
+    flex-direction: column;
     width: 100%;
+    height: 100%;
+    background-color: #151515;
+    color: white;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    text-align: justify;
+    line-height: 1.75rem;
+}
+
+.container p {
+    text-indent: 4rem;
 }
 
 
-/* [Media Query] */
+/* Headers */
 
-@media screen and (max-width: 720px) {
-    .main,
-    .spacing {
-        background-color: #151515;
-        width: 100%;
-    }
-    .nav-logo {
-        width: 54vh;
-        height: 15vh;
-    }
-}
-
-
-/* [Roboto Fonts] */
-
-@font-face {
-    font-family: Roboto;
-    src: url(../fonts/Roboto-Regular.ttf);
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: Roboto;
-    src: url(../fonts/Roboto-Bold.ttf);
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: Roboto;
-    src: url(../fonts/Roboto-Italic.ttf);
-    font-weight: normal;
-    font-style: italic;
-}
-
-
-/* [Title and Bars] */
-
-.nav-bar {
+.toptitle {
     background-color: #181818;
+    padding: 0.5rem;
+    color: white;
+}
+
+.topnav {
+    background-color: #181818;
+    overflow: hidden;
     position: sticky;
     top: 0;
-    height: 10%;
-    display: flex;
-    justify-content: center;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    padding: 1rem;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #282828;
+}
+
+.topnav a.active {
+    background-color: #6699DD;
+    color: #181818;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 1080px) {
+    body {
+        background-color: #121212;
+        padding: 0;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+    .topnav.responsive {
+        position: sticky;
+        top: 0;
+    }
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
 }
 
 
-/* [Article] */
+/* FontAwesome */
 
-.article {
-    display: flex;
-    justify-content: center;
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
+    src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.fa-bars:before {
+    content: "\f0c9"
+}
+
+
+/* Footer */
+
+.foot {
     width: 100%;
-    margin: auto;
-    padding: 0 1rem;
-    word-wrap: break-word;
+    background-color: #181818;
+    color: #444;
+    text-align: center;
 }
 
 
-/* [Text Formattings] */
+/* Text Formatting */
 
-.justify {
-    text-align: justify;
+.accent {
+    color: #6699DD;
 }
 
-.title {
-    font-size: 2rem;
-}
-
-.context {
-    font-size: 1.5rem;
-}
-
-.bold {
-    font-weight: bold;
-}
-
-.date {
-    color: #ffffff66;
-    font-size: medium;
+.center {
+    text-align: center;
 }
