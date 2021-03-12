@@ -21,21 +21,22 @@ h2 {
     height: 100%;
 }
 
+.img-container {
+    position: relative;
+}
+
+.profile {
+    height: 54px;
+    width: 54px;
+    float: right;
+    border-radius: 100%;
+}
+
 .container {
     float: left;
     width: 100%;
     height: 100%;
-}
-
-.container p {
-    text-indent: 2.8rem;
-}
-
-.container p.date {
-    color: #444;
-    font-size: small;
-    text-indent: 0;
-    line-height: 0.4rem;
+    background-color: #121212;
 }
 
 .main-section {
@@ -62,15 +63,16 @@ h2 {
 /* Headers */
 
 .toptitle {
-    background-color: #181818;
+    background-color: #151515;
     padding: 0.5rem;
     color: white;
 }
 
 .topnav {
-    background-color: #181818;
+    background-color: #151515;
     overflow: hidden;
     position: sticky;
+    z-index: 999;
     top: 0;
 }
 
@@ -97,6 +99,17 @@ h2 {
     display: none;
 }
 
+.bottom-image-title {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding-bottom: 6px;
+    background-color: #151515D9;
+    bottom: 0;
+    box-sizing: border-box;
+}
+
 @media screen and (max-width: 1080px) {
     .spacing {
         display: none;
@@ -105,6 +118,9 @@ h2 {
         float: none;
         width: 100%;
         height: auto;
+    }
+    .bottom-image-title {
+        position: inherit;
     }
     .topnav a:not(:first-child) {
         display: none;
@@ -158,7 +174,7 @@ h2 {
 
 .foot {
     width: 100%;
-    background-color: #181818;
+    background-color: #151515;
     color: #444;
     text-align: center;
 }
@@ -172,4 +188,8 @@ h2 {
 
 .center {
     text-align: center;
+}
+
+.align-left {
+    text-align: left;
 }
