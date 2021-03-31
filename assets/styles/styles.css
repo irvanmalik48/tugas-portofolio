@@ -1,10 +1,10 @@
 /* Variables */
 
 :root {
-    --body: #212432;
-    --header: #252836;
-    --section: #232634;
-    --accent: #2FDEB6;
+    --body: #212121;
+    --header: #252525;
+    --section: #232323;
+    --accent: #77AADD;
     --text: #FDFDFD;
     --text-muted: #505361;
     --tsize: 1rem;
