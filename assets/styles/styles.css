@@ -6,6 +6,7 @@
     --section: #232634;
     --accent: #2FDEB6;
     --text: #FDFDFD;
+    --text-muted: #505361;
     --tsize: 1rem;
 }
 
@@ -450,4 +451,8 @@ body {
 
 .black {
     color: var(--body);
+}
+
+.muted {
+    color: var(--text-muted);
 }
