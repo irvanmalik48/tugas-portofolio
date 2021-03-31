@@ -90,6 +90,13 @@
 }
 
 
+/* Smooth Scrolling Property */
+
+html {
+    scroll-behavior: smooth;
+}
+
+
 /* Body */
 
 body {
@@ -259,6 +266,9 @@ body {
     padding: 6px 12px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
 }
 
 .button:hover {
